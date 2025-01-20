@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 def update_ddns(client: Client = None, domain_name: str = None, record_name: str = None):
     """
-    Updates DNS A record using supplied arguments.
+    Updates DNS A record to use current external IP address.
     Currently only supports sub-domains.
 
     Paramters:
